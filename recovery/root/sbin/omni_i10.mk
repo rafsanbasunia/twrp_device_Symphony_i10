@@ -18,7 +18,7 @@ PRODUCT_COPY_FILES += device/${_VENDORNAME_}/${_CODENAME_}/prebuilt/kernel:kerne
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
 
 PRODUCT_DEVICE := i10
-PRODUCT_NAME := i10
+PRODUCT_NAME := omni_i10
 PRODUCT_BRAND := Symphony
 PRODUCT_MODEL := i10
 PRODUCT_MANUFACTURER := Symphony
