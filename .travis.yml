@@ -52,10 +52,10 @@ script:
     EOF
 after_success:
   - export version=$(cat bootable/recovery/variables.h | grep "define TW_MAIN_VERSION_STR" | cut -d '"' -f2)
-  - cp $HOME/twrp/out/target/product/${_CODENAME_}/recovery.img $HOME/twrp/TWRP-$version-${_CODENAME_}-$(date +"%Y%m%d")-Unofficial.img
+  - cp $HOME/twrp/out/target/product/i10/recovery.img $HOME/twrp/TWRP-$version-i10-$(date +"%Y%m%d")-Unofficial.img
   - cd $HOME/twrp/
   # Optional: You might need to switch from https://transfer.sh to https://file.io
-  # - curl -s --upload-file TWRP-$version-${_CODENAME_}-$(date +"%Y%m%d")-Unofficial.img https://transfer.sh/ && echo ""
+  # - curl -s --upload-file TWRP-$version-i10-$(date +"%Y%m%d")-Unofficial.img https://transfer.sh/ && echo ""
 deploy:
   provider: releases
   # The secret api_key will be loaded from the environment variables
