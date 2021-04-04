@@ -18,10 +18,10 @@ PRODUCT_COPY_FILES += device/${_VENDORNAME_}/${_CODENAME_}/prebuilt/kernel:kerne
 # PRODUCT_COPY_FILES += $(LOCAL_PATH)/recovery/root/*:root/*
 
 PRODUCT_DEVICE := i10
-PRODUCT_NAME := omni_i10
-PRODUCT_BRAND := SYMPHONY
+PRODUCT_NAME := i10
+PRODUCT_BRAND := Symphony
 PRODUCT_MODEL := i10
-PRODUCT_MANUFACTURER := SYMPHONY
+PRODUCT_MANUFACTURER := Symphony
 # Forcefully add mtp support (adb is already there)
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     persist.sys.usb.config=mtp
@@ -29,5 +29,5 @@ PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
 # Add fingerprint from Stock ROM build.prop
 PRODUCT_BUILD_PROP_OVERRIDES += \
     # These lines are from my device. You MUST Replace yours.
-    BUILD_FINGERPRINT="CUBOT/RAINBOW/RAINBOW:6.0/MRA58K/20200420:user/release-keys" \
-    PRIVATE_BUILD_DESC="full_w363-user 6.0 MRA58K 1590131088 release-keys"
+    BUILD_FINGERPRINT="Symphony/i10/i10:6.0/MRA58K/1462337248:user/release-keys" \
+    PRIVATE_BUILD_DESC="full_p4200-user 6.0 MRA58K 1508833824 release-keys"

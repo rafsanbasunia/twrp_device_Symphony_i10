@@ -1,4 +1,4 @@
-LOCAL_PATH := device/SYMPHONY/i10
+LOCAL_PATH := device/Symphony/i10
 
 TARGET_BOARD_PLATFORM := mt6580               # From ro.mediatek.platform, but lowercase value
 TARGET_NO_BOOTLOADER := true
